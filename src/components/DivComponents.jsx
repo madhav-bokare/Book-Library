@@ -25,7 +25,7 @@ const DivComponents = () => {
     const fetchBook = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:5000/api/book/title/${encodeURIComponent(title)}`
+          `https://book-library-backend-qnfv.onrender.com/api/book/title/${encodeURIComponent(title)}`
         );
         setBook(res.data);
         setError("");
