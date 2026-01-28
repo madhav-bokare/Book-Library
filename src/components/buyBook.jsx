@@ -7,7 +7,7 @@ const PaidBookDetail = () => {
     const [book, setBook] = useState(null);
 
     useEffect(() => {
-        fetch("http://localhost:5000/api/book/paid")
+        fetch("https://book-library-backend-qnfv.onrender.com/api/book/paid")
             .then(res => res.json())
             .then(data => {
                 const found = data.find(
