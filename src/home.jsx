@@ -18,14 +18,14 @@ const Home = () => {
 
   // Fetch Free Books
   useEffect(() => {
-    axios.get("http://localhost:5000/api/book/free")
+    axios.get("https://book-library-backend-qnfv.onrender.com/api/book/free")
       .then(res => setFetchedBook(res.data))
       .catch(err => console.error(err));
   }, []);
 
   // Fetch Paid Books
   useEffect(() => {
-    axios.get("http://localhost:5000/api/book/paid")
+    axios.get("https://book-library-backend-qnfv.onrender.com/api/book/paid")
       .then(res => setPaidBook(res.data))
       .catch(err => console.error(err));
   }, []);
