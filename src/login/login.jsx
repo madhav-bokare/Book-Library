@@ -29,7 +29,7 @@ const LoginSignup = () => {
       if (isLogin) {
         // ===== LOGIN =====
         const res = await axios.post(
-          "  https://book-library-backend-qnfv.onrender.com/api/login",
+          "  https://book-library-login.onrender.com/api/login",
           { email, password } 
         );
 
