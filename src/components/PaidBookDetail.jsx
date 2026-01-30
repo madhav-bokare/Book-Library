@@ -28,7 +28,7 @@ const PaidBookDetail = () => {
 
         // 🔹 Suggestions (same type books)
         const sugRes = await axios.get(
-          `http://localhost:5000/api/book/paid`
+          `https://book-library-backend-qnfv.onrender.com/api/book/paid`
         );
 
         const filtered = sugRes.data.filter(
