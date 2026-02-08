@@ -47,20 +47,9 @@
     height: 150px !important;
   }
 
-  .back-btn-container {
-    width: 200px;
-    display: flex;
-    margin: auto;
-  }
   .book-name,.book-price,.buy-btn{
     margin-right: 18%;
   }
-
-  .back-home {
-    font-size: 12px !important;
-    margin: auto;
-  }
-
   .book-details {
     display: block;
   }

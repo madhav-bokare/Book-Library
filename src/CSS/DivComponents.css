@@ -62,32 +62,6 @@
   border-left: 4px solid #f7a37c;
   color: #f3bca3;
 }
-
-/* === BACK BUTTON === */
-.back-btn-container {
-  position: fixed;     
-  bottom: 20px;        
-  right: 20px;         
-  z-index: 9999;       
-}
-
-.back-home {
-  background: linear-gradient(90deg, #606431, #9ae1f4);
-  color: white;
-  padding: 12px 20px;
-  border-radius: 30px;
-  font-size: 1.1rem;
-  font-weight: 450;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3); 
-}
-
-.back-home:hover {
-  background: linear-gradient(90deg, #606431, #9ae1f4);
-   transform: scale(1.08);
-}
-
 /* === ERROR / LOADING === */
 .error,
 .loading {

@@ -110,7 +110,7 @@
 }
 
 .back-name {
-  background-color: #8dbef6; 
+  background: linear-gradient(90deg, #606431, #9ae1f4);
   color: #555454;              
   padding: 12px 20px;        
   border-radius: 20px;      

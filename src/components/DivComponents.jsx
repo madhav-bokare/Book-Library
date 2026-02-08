@@ -109,11 +109,11 @@ const DivComponents = () => {
         )}
 
         {/* ===== Back Button FIXED ===== */}
-        <div className="back-btn-container">
-          <Link to="/" className="back-home">
-            ⬅ Back to Home
-          </Link>
-        </div>
+        <div className="back-button">
+                 <Link to="/" className="back-name">
+                   ⬅ Back to Home
+                 </Link>
+               </div>
       </div>
     </>
   );
