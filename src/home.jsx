@@ -2,7 +2,7 @@ import React, { useEffect, useState, useMemo } from "react";
 import axios from "axios";
 import Navbar from "./components/Navbar.jsx";
 import Section from "./components/section.jsx";
-import Footer from "./components/Footer.jsx";
+import Footer from "./components/footer.jsx";
 import "./CSS/Responsive.css";
 
 const Home = () => {
