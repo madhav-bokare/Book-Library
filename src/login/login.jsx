@@ -5,7 +5,7 @@ import "./login.css";
 
 // Axios instance 
 const authApi = axios.create({
-  baseURL: "https://book-library-login.vercel.app/api",
+  baseURL: "book-library-login.vercel.app/api",
   headers: { "Content-Type": "application/json" },
 });
 

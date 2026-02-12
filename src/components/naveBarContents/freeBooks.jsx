@@ -10,7 +10,7 @@ const FreeBooks = () => {
   useEffect(() => {
     const fetchBooks = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/book/free");
+        const res = await fetch("https://book-library-backend-flame.vercel.app/api/book/free");
         const data = await res.json();
         setBooks(data);
       } catch (err) {

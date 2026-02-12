@@ -2,11 +2,11 @@ import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./home";
 import LoginSignup from "./login/login.jsx"; 
-import DivComponents from "./components/DivComponents.jsx";
+import DivComponents from "./components/divComponents.jsx";
 import FreeBooks from "./components/naveBarContents/freeBooks.jsx";
 import PaidBookDetail from "./components/PaidBookDetail.jsx";
-import PaidBooks from "./components/NaveBarContents/paidBooks.jsx";
-import ProtectedRoute from "./components/ProtectedRoute.jsx";
+import PaidBooks from "./components/naveBarContents/paidBooks.jsx";
+import ProtectedRoute from "./components/protectedRoute.jsx";
 import Profile from "./Profile/Profile.jsx";
 
 function App() {

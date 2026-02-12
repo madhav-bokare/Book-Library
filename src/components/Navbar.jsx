@@ -90,28 +90,3 @@ const Navbar = ({ setQuery = () => {} }) => {
 };
 
 export default Navbar;
-
-// import React from "react";
-// import { Link, useLocation } from "react-router-dom";
-// import "../CSS/Navbar.css";
-// import UserLogo from "../images/UserLogo.png";
-
-// const Navbar = ({ setQuery }) => {
-//   const location = useLocation();
-//   const isActive = path => location.pathname === path ? "active-link" : "";
-
-//   return (
-//     <nav className="navbar">
-//       <div className="logo">✦ Books Library</div>
-//       <div className="nav-links">
-//         <Link to="/" className={isActive("/")}>Home</Link>
-//         <Link to="/free-books" className={isActive("/free-books")}>Free Books</Link>
-//         <Link to="/paid-books" className={isActive("/paid-books")}>Paid Books</Link>
-//       </div>
-//       <input type="search" placeholder="Search..." onChange={e => setQuery?.(e.target.value)} />
-//       <Link to="/profile"><img src={UserLogo} alt="Profile" className="user-icon" /></Link>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;

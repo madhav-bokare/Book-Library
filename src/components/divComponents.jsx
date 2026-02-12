@@ -15,14 +15,14 @@ const DivComponents = () => {
     const fetchBook = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:5000/api/book/title/${encodeURIComponent(title)}`
+          `https://book-library-backend-flame.vercel.app/api/book/title/${encodeURIComponent(title)}`
         );
         setBook(res.data);
         setError("");
 
         // Fetch suggestions (same type: free/paid, exclude current)
         const type = res.data.link; // free or paid
-        const sugRes = await axios.get(`http://localhost:5000/api/book/${type}`);
+        const sugRes = await axios.get(`https://book-library-backend-flame.vercel.app/api/book/${type}`);
         const filtered = sugRes.data.filter(b => b._id !== res.data._id);
         setSuggestions(filtered);
       } catch (err) {

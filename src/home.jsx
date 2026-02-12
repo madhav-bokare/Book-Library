@@ -20,8 +20,8 @@ const Home = () => {
     const fetchBooks = async () => {
       try {
         const [freeRes, paidRes] = await Promise.all([
-          axios.get("http://localhost:5000/api/book/free"),
-          axios.get("http://localhost:5000/api/book/paid"),
+          axios.get("https://book-library-backend-flame.vercel.app/api/book/free"),
+          axios.get("https://book-library-backend-flame.vercel.app/api/book/paid"),
         ]);
         setFetchedBook(freeRes.data);
         setPaidBook(paidRes.data);
