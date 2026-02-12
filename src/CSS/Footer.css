@@ -1,0 +1,78 @@
+/* ========== FOOTER ========== */
+  .footer {
+    margin-top: 10%;
+    padding: 40px 20px;
+    border-top: 2px solid rgb(32, 32, 32);
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    text-align: left;
+  }
+
+  .footer-section {
+    max-width: 300px;
+  }
+
+  .footer-section h2 {
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+
+  .footer-section-about-p {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.5;
+  }
+
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-section ul li {
+    margin: 20px 10px;
+  }
+
+  .footer-section ul li a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+ 
+  .footer-section ul li a:hover {
+    color: rgb(124, 99, 8);
+    text-decoration: underline;
+  }
+  
+.social-icons p {
+  color: #000000;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.3s;
+  margin: 0 0; 
+  margin-left: 10px;
+}
+
+
+  .social-icons p:hover {
+    color: rgb(124, 99, 8);
+    text-decoration: underline;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-top: 1px solid #0ff3;
+    padding-top: 15px;
+    color: #000000;
+  }
+ 

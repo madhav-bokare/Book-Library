@@ -1,0 +1,155 @@
+/* ========== GLOBAL ========== */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+background-image: url("https://e1.pxfuel.com/desktop-wallpaper/882/364/desktop-wallpaper-paper-power-point-backgrounds-paper-power-point-old-paper.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ========== SECTION (Default Sections) ========== */
+section {
+  margin-top: 7%;
+  padding-left: 7%;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 15px;
+  border-left: 4px solid rgb(0, 0, 0);
+  padding-left: 10px;
+}
+
+/* ========== CARD CONTAINER (Horizontal Scroll) ========== */
+.card-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 8%;
+  padding: 20px 10px;
+  scroll-behavior: smooth;
+  justify-content: flex-start;
+}
+
+/* Scrollbar Styling */
+.card-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.card-container::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 251, 0);
+  border-radius: 10px;
+}
+
+.card-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* ========== CARD ========== */
+.card {
+  flex: 0 0 auto;
+  text-align: center;
+  overflow: hidden;
+  background: transparent;
+  border: none;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  object-fit: cover;
+  background: transparent;
+  display: block;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+/* ========== BOOK NAME BELOW IMAGE ========== */
+.book-name {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #000000;
+  font-size: 1rem;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.card:hover .book-name {
+  color: #5a4b03;
+  /* text-shadow: 0 0 10px #ffd70f; */
+}
+
+/* ===== AUTO SLIDE SECTION (Recommended only) ===== */
+.auto-slide-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; 
+   text-align: left;
+}
+
+.auto-slide-section .cardHeading {
+  
+  font-size: 25px;
+  color: #9b9898;
+  margin-bottom: 40px;
+  padding: 0 15px 8px 15px;
+}
+
+.auto-slide-container {
+  overflow: hidden;
+  width: 80%;
+  position: relative;
+  border-radius: 10px;
+}
+
+.auto-slide-track {
+  display: flex;
+  gap: 15px;
+  animation: moveSlide 25s linear infinite;
+  width: max-content;
+}
+
+.auto-slide-section .card {
+  min-width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.auto-slide-section .card img {
+  width: 90%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.auto-slide-section .card:hover img {
+  transform: scale(1.05);
+}
+
+.auto-slide-section .book-name {
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+}
+
+/* ===== Smooth continuous motion (Recommended only) ===== */
+@keyframes moveSlide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

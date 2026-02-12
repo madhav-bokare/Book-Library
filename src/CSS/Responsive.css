@@ -1,0 +1,184 @@
+/* ===== MOBILE PHONES ===== */
+@media (max-width: 430px) {
+
+  /* Logo small */
+  .mobile-logo {
+    font-size: 18px !important;
+  }
+
+  /* Hide desktop navbar links */
+  .nav-links,
+  .more-box {
+    display: none !important;
+  }
+
+  /* Hide desktop navbar */
+  .navbar {
+    display: none;
+  }
+
+  /* Show mobile navbar */
+  .navbar-mobile {
+    display: flex;
+  }
+
+  /* Card / Book content adjustments */
+  .cardHeading {
+    font-size: 20px !important;
+  }
+
+  .card img {
+    width: 120px;
+    height: auto;
+  }
+
+  .card {
+    width: 150px;
+    height: auto;
+  }
+
+  .auto-slide-section {
+    display: block;
+    width: auto;
+  }
+
+  .card-img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .book-name,.book-price,.buy-btn{
+    margin-right: 18%;
+  }
+  .book-details {
+    display: block;
+  }
+
+  .book-image {
+    width: 55% !important;
+    height: auto !important;
+  }
+
+  .book-info-h {
+    font-size: 20px !important;
+  }
+
+  .book-info-p {
+    font-size: 16px !important;
+  }
+  .book-content iframe {
+    width: 100%!important;
+    height: 440px!important;
+  }
+}
+
+/* ===== TABLETS ===== */
+@media (min-width: 431px) and (max-width: 932px) {
+  .navbar {
+    display: flex;
+  }
+    .book-info-h {
+    font-size: 20px !important;
+  }
+  .nav-links,
+  .more-box {
+    display: flex !important;
+  }
+
+  .navbar-mobile {
+    display: none;
+  }
+
+  .book-details {
+    display: block;
+  }
+}
+
+/* ===== LARGE SCREENS ===== */
+@media (min-width: 821px) {
+  .navbar {
+    display: flex;
+    height: 80px!important;
+  }
+
+  .nav-links,
+  .more-box {
+    display: flex !important;
+    font-size: large;
+  }
+  .search-container input {
+    width: 200px;
+    margin: auto;
+    left: auto;
+  }
+
+  .navbar-mobile {
+    display: none;
+  }
+}
+@media (min-width: 430px){
+  .navbar{
+    display: none;
+  }
+   .navbar-mobile {
+    display: flex;
+  }
+  .mobile-logo {
+    font-size: 22px !important;
+  }
+}
+@media (min-width: 768px){
+  .navbar{
+    display: flex;
+    height: 60px!important;
+  }
+   .navbar-mobile {
+    display: none;
+  }
+  .nav-links{
+    font-size: 18px !important;
+    gap: 20px;
+  }
+  .logo{
+    font-size: 20px !important;
+  }
+  .user-icon{
+    width: 35px !important;
+    height: 35px !important;
+}
+ .book-content iframe {
+    width: 80%!important;
+    height: 850px!important;
+  }
+}
+@media (min-width: 360px) {
+  .mobile-links a {
+    font-size: 14px !important;
+  }
+  .mobile-logo {
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 1024px) {
+  .nav-links {
+    gap: 50px!important;
+  }
+   .book-content iframe {
+    width: 60%!important;
+    height: 700px!important;
+  }
+}
+@media (min-width: 912px) {
+  .nav-links {
+    gap: 50px!important;
+  }
+}
+@media (min-width: 344px) {
+  .mobile-logo {
+    font-size: 15px!important;
+  }
+  .mobile-links a {
+    font-size: 13px!important;
+    font-weight: 700!important;
+  }
+}
